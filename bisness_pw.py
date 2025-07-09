@@ -1,7 +1,7 @@
 #-------------------------------------------------암호화 코드-------------------------------------------------------------
 from cryptography.fernet import Fernet
 
-key = b"Y2f5d05REHFL9JhXZ1bkVjMxztYlwJ34uxvqWC1eEAw="  # 배포 전 만든 키(아래 주석에 생성 코드 있음.)
+key = b"..."  # 배포 전 만든 키(아래 주석에 생성 코드 있음.)
 
 fernet = Fernet(key)
 
